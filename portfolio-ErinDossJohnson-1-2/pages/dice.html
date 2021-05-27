@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Lightning</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+    <script src="../javascript/dice.js"></script>
+</head>
+<body>
+<img id="bannerimg" src="images/banner.jpg" alt="This is the banner">  
+    <nav id="main-nav">
+        <ul>
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="projects.html">Projects
+                    <span class="arrow">&#x25BC;</span>
+                </a>
+                <ul class="submenu">
+                    <li>
+                        <a href="stringThing.html">StringThing</a>
+                    </li>
+                    <li>
+                        <a href="lightning.html">Lightning</a>
+                    </li>
+                    <li>
+                      <a href = "digitalScene.html">DigitalScene</a>
+                    </li>
+                    <li>
+                      <a href = "dice.html">Dice</a>
+                    </li>
+                    <li>
+                      <a href = "chemotaxis.html">Chemotaxis</a>
+                    </li>
+                    <li>
+                      <a href = "starfield.html">Starfield</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="aboutMe.html">AboutMe
+                </a>
+            </li>
+            <li>
+                <a href="deepThoughts.html">DeepThoughts</a>
+            </li>
+        </ul>
+    </nav>
+  <h4>Dice!</h4>
+  <p>Tap the screen and watch the dice roll change!</p>
+  <p1>This project was a lot of mathematical work for me. The hardest part was placing each die right, along with the circles in each one. I ended up drawing a sketch of what I wanted the screen to look like on a piece of paper, and then I mapped it out and figured out the measurements from there. A way I reduced my code was by creating a lot of if statements for the drawing of the dots on the die. Instead of drawing every possible die separately, I mapped it out and looked to see which numbers each dots on each possible roll lined up. I noticed patterns for each dot, such as for the top left dot and the bottom right dot, it showed up whenever the roll was greater than or equal to 2. So, I made an if statement that if the roll of the die was greater than or equal to two, it would draw those two dots. This made my code much shorter and easier for me to follow and edit! This project is probably the one I'm most proud of due to my code!</p1>
+ <script src="javascript/dice.js"></script>
+ </body>
+ </html>
